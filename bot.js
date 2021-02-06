@@ -15,3 +15,4 @@ if(message.content == "Share some memes"){
 }
 
 })
+client.login(process.env.BOT_TOKEN);
