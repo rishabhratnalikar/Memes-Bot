@@ -10,7 +10,7 @@ client.on('ready', () =>{
 client.on('message', msg=>{
   
   
-if(message.content == "Share some memes"){
+if(msg.content == "Share some memes"){
   msg.reply('https://tenor.com/view/hello-sexy-hi-hello-mr-bean-gif-13830351')
 }
 
